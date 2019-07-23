@@ -6,3 +6,7 @@ body{
     background:url('../bgimg2.jpg');
 
 }
+.mydiv{
+    border: 5px solid black;
+    margin-top: 50px;
+}
