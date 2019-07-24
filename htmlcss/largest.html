@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Largest</title>
+    <script>
+        function largest()
+        {
+            var n1=document.getElementById("firstnumber").value;
+            var n2=document.getElementById("secondnumber").value;
+            if(n1>n2)
+                alert(n1+" is the largest Number");
+            else if(n2>n1)
+                alert(n2+" is the largest Number");
+            else
+                alert("Both Numbers are Same");
+        }
+    </script>
+</head>
+<body>
+    
+    <form >
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col col-4 col-sm-4">
+                    <p>Enter First Number</p>
+                </div>
+                <div class="col col-4 col-sm-4">
+                    <input type="text"class="form-control" name="" id="firstnumber">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-4 col-sm-4">
+                    <p>Enter Second Number</p>
+                </div>
+                <div class="col col-4 col-sm-4">
+                    <input type="text" class ="form-control" name="" id="secondnumber">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-4 col-sm-4">
+                </div>
+                <div class="col col-4 col-sm-4">
+                    <input type="button" class ="btn btn-success" onclick= largest() value="Submit">
+                </div>
+            </div>
+        </div>
+        
+
+    </form>
+</body>
+</html>
