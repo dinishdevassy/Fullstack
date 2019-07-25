@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie</title>
+</head>
+<body>
+    <form >
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col col-3 col-sm-3">
+                    Enter Movie Name
+                </div>
+                <div class="col col-3 col-sm-3">
+                    <input type="text" name="" id="moviename">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col col-3 col-sm-3"></div>
+                <div class="col col-3 col-sm-3">
+                    <input type="button" class="btn btn-success" onclick="movielist()"value="Submit">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col col-3 col-sm-3">
+                          
+                    </div>
+                    <div class="col col-3 col-sm-3">
+                        
+                        <table>
+                            <tr>
+                                <td><p id="result"></p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+        </div>
+    </form>
+    <script src="./JS/movie.js"></script>
+</body>
+</html>

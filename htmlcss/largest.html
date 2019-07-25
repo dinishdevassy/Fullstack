@@ -11,10 +11,16 @@
         {
             var n1=document.getElementById("firstnumber").value;
             var n2=document.getElementById("secondnumber").value;
-            if(n1>n2)
+            var a=parseInt(n1);
+         
+            if(parseInt(n1)>parseInt(n2)){
                 alert(n1+" is the largest Number");
-            else if(n2>n1)
+
+            }
+            else if(n2>n1){
                 alert(n2+" is the largest Number");
+
+            }
             else
                 alert("Both Numbers are Same");
         }

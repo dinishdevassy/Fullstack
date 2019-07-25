@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arithmetc Operation</title>
+    <script src="./JS/script.js"></script>
+</head>
+<body>
+    <form >
+        <br>
+        <div class="container" style="border:1px solid black">
+            <br>
+            <div class="row">
+                <div class="col col-4 col-sm-4">
+                    Number 1
+                </div>
+                <div class="col col-4 col-sm-4">
+                    <input type="text" class =" form-control" name="" id="number1" required>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col col-4 col-sm-4">Number 2</div>
+                <div class="col col-4 col-sm-4">
+                    <input type="text" class ="form-control" name="" id="number2"  required>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col col-4 col-sm-4">Operation</div>
+                <div class="col col-4 col-sm-4">
+                    <select name="" class ="form-control" id="operation" onchange ="calc()" required>
+                        <option value="">---Select---</option>
+                        <option value="addition">Addition</option>
+                        <option value="subtraction">Subtraction</option>
+                        <option value="multiplication">Multiplcation</option>
+                        <option value="division">Division</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            te
+            <div class="row">
+                <div class="col col-4 col-sm-4"></div>
+                <div class="col col-4 col-sm-4">
+                    <input type="button" class="btn btn-success" onclick= "calc()"value="Submit">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col col-4 col-sm-4">
+                   
+                </div>
+                <div class="row">
+                    <p  id="result"></p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
